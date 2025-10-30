@@ -1,4 +1,19 @@
-# Electricity_market_model
-Personal project to model French/european electricity markets
-## What's included?
-The project aims to be a comprehensive model of electricity markets from data collection to price prediction
+# Electricity market model
+
+## 🎯 Objective
+Personal project to analyse and predict electricity market trends in France/Europe
+Projet d'analyse et prédiction des marchés de l'électricité en France/Europe.
+
+## 🚀 Status
+🚧 Development
+
+## 📊 Features prévues
+- Data analysis via APIs (ENTSO-E, RTE)
+- Data analysis
+- Predictive models (consumption, production, price)
+- Data visualisation
+
+## 🛠️ Technologies
+- Python 3.12+
+## 👤 Auteur
+Florian Selot

@@ -1,0 +1,5 @@
+## Python files
+*.py[cod]
+
+# Personal/Work files
+./work_documentation
