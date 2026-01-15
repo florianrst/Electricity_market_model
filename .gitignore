@@ -2,8 +2,8 @@
 *.py[cod]
 
 # Personal/Work files
-./work_documentation/
+work_documentation/
 
-
-./.venv/
-./venv/
+# Virtual environments
+.venv/
+venv/
