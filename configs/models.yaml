@@ -1,0 +1,22 @@
+targets:
+  load:
+    horizon_hours: 24      # D+1 hourly
+    baselines: [naive_24h, naive_168h]
+  day_ahead_price:
+    horizon_hours: 24
+    baselines: [naive_24h, naive_168h]
+  generation_mix:
+    horizon_hours: 24
+
+split:
+  train_end: "2022-12-31"
+  val_end: "2023-12-31"    # test = everything after
+  cv:
+    scheme: expanding_window
+    n_splits: 5
+
+models:
+  ml: [ridge, lightgbm]
+  dl: [lstm, transformer]
+
+metrics: [mae, rmse, smape, skill_vs_naive_24h]

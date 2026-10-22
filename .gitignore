@@ -4,6 +4,21 @@
 # Personal/Work files
 work_documentation/
 
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Data and artifacts (keep folder skeleton only)
+data/**
+!data/**/
+!data/**/.gitkeep
+models_store/
+.ipynb_checkpoints/
+*.egg-info/
+.ruff_cache/
+.pytest_cache/
+
 # Virtual environments
 .venv/
 venv/

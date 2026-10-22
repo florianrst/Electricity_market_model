@@ -1,0 +1,9 @@
+# Weather points, weighted roughly by population/consumption share (to be tuned).
+locations:
+  - {name: paris,     lat: 48.857, lon: 2.352, weight: 0.30}
+  - {name: lyon,      lat: 45.764, lon: 4.836, weight: 0.15}
+  - {name: marseille, lat: 43.296, lon: 5.370, weight: 0.15}
+  - {name: lille,     lat: 50.629, lon: 3.057, weight: 0.12}
+  - {name: toulouse,  lat: 43.605, lon: 1.444, weight: 0.10}
+  - {name: bordeaux,  lat: 44.838, lon: -0.579, weight: 0.10}
+  - {name: strasbourg, lat: 48.573, lon: 7.752, weight: 0.08}

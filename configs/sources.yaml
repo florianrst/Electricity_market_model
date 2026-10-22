@@ -1,0 +1,33 @@
+start_date: "2018-01-01"
+
+rte:
+  token_url: https://digital.iservices.rte-france.com/token/oauth/
+  base_url: https://digital.iservices.rte-france.com/open_api
+  datasets:
+    consumption_actual:
+      path: /actual_generation/v1/  # TODO: confirm endpoint per RTE API subscription
+      freq: 15min
+    generation_by_type:
+      path: /actual_generation/v1/actual_generations_per_production_type
+      freq: 15min
+
+entsoe:
+  bidding_zone: 10YFR-RESTO----N  # France
+  datasets:
+    day_ahead_prices:
+      document_type: A44
+      freq: 1h
+
+openmeteo:
+  archive_url: https://archive-api.open-meteo.com/v1/archive
+  forecast_url: https://api.open-meteo.com/v1/forecast
+  hourly_variables:
+    - temperature_2m
+    - wind_speed_100m
+    - shortwave_radiation
+    - cloud_cover
+    - precipitation
+
+meteofrance:
+  base_url: https://public-api.meteofrance.fr/public
+  enabled: false  # cross-check only, later
