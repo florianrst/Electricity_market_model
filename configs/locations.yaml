@@ -1,9 +1,74 @@
 # Weather points, weighted roughly by population/consumption share (to be tuned).
 locations:
-  - {name: paris,     lat: 48.857, lon: 2.352, weight: 0.30}
-  - {name: lyon,      lat: 45.764, lon: 4.836, weight: 0.15}
-  - {name: marseille, lat: 43.296, lon: 5.370, weight: 0.15}
-  - {name: lille,     lat: 50.629, lon: 3.057, weight: 0.12}
-  - {name: toulouse,  lat: 43.605, lon: 1.444, weight: 0.10}
-  - {name: bordeaux,  lat: 44.838, lon: -0.579, weight: 0.10}
-  - {name: strasbourg, lat: 48.573, lon: 7.752, weight: 0.08}
+  ile-de-france:
+    city: paris
+    lat: 48.863
+    lon: 2.359
+    weights:
+      population: 0.30
+  auvergne-rhone-alpes:
+    city: lyon
+    lat: 45.753
+    lon: 4.869
+    weights:
+      population: 0.15
+  provence-alpes-cote-d-azur:
+    city: marseille
+    lat: 43.293
+    lon: 5.398
+    weights:
+      population: 0.15
+  hauts-de-france:
+    city: lille
+    lat: 50.632
+    lon: 3.048
+    weights:
+      population: 0.12
+  occitanie:
+    city: toulouse
+    lat: 43.596
+    lon: 1.432
+    weights:
+      population: 0.10
+  nouvelle-aquitaine:
+    city: bordeaux
+    lat: 44.857
+    lon: -0.574
+    weights:
+      population: 0.10
+  grand-est:
+    city: strasbourg
+    lat: 48.571
+    lon: 7.768
+    weights:
+      population: 0.08
+  pays-de-la-loire:
+    city: nantes
+    lat: 47.232
+    lon: -1.548
+    weights:
+      population: 0.08
+  bretagne:
+    city: rennes
+    lat: 48.112
+    lon: -1.682
+    weights:
+      population: 0.08
+  normandie:
+    city: rouen
+    lat: 49.441
+    lon: 1.093
+    weights:
+      population: 0.08
+  centre-val-de-loire:
+    city: orleans
+    lat: 47.883
+    lon: 1.916
+    weights:
+      population: 0.08 
+  bourgogne-franche-comte:
+    city: dijon
+    lat: 47.323
+    lon: 5.0379
+    weights:
+      population: 0.08
